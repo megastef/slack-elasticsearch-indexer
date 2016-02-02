@@ -1,4 +1,4 @@
-# Slack ELasticsearch Indexer
+# Slack Elasticsearch Indexer
 
 ## Installation 
 
@@ -11,3 +11,4 @@ npm i slack-elasticsearch-indexer
 # export LOGSENE_URL=http://localhost:9200
 export INDEX=YOUR_LOGSENE_TOKEN
 npm start YOUR_SLACK_TOKEN $INDEX
+```
