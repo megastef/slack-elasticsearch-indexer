@@ -12,3 +12,5 @@ npm i slack-elasticsearch-indexer
 export INDEX=YOUR_LOGSENE_TOKEN
 npm start YOUR_SLACK_TOKEN $INDEX
 ```
+
+Blog Post: [Slack Analytics & Search with Elasticsearch, Node.js and React] (http://blog.sematext.com/2016/02/11/slack-analytics-search-with-elasticsearch-node-js-and-react/)
