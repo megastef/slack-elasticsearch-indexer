@@ -4,11 +4,11 @@
 
 ```
 npm i slack-elasticsearch-indexer 
-# Optional set URL for Elasticsearch
+# Optional set URL for Elasticsearch bulk indexing
 # Default is:
-# export LOGSENE_URL=https://logsene-receiver.sematext.com
-# Use a local ELasticsearch Server: 
-# export LOGSENE_URL=http://localhost:9200
+# export LOGSENE_URL=https://logsene-receiver.sematext.com/_bulk
+# Use a local Elasticsearch Server: 
+# export LOGSENE_URL=http://localhost:9200/_bulk
 export INDEX=YOUR_LOGSENE_TOKEN
 npm start YOUR_SLACK_TOKEN $INDEX
 ```
