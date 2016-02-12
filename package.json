@@ -1,6 +1,6 @@
 {
   "name": "slack-elasticsearch-indexer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Command Line Tool to index all your Slack messages",
   "main": "index.js",
   "scripts": {
