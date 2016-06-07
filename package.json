@@ -1,10 +1,13 @@
 {
   "name": "slack-elasticsearch-indexer",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Command Line Tool to index all your Slack messages",
   "main": "index.js",
+  "bin": {
+    "slack-elasticsearch-indexer": "./index.js"
+  },
   "scripts": {
-    "start": "./start.sh",
+    "start": "./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,11 +19,11 @@
   "author": "Stefan Thies",
   "license": "ISC",
   "dependencies": {
-    "logagent-js": "^1.1.19",
-    "slack-client": "^1.5.1"
+    "@slack/client": "^3.4.0",
+    "logsene-js": "^1.0.27"
   },
-  "repository": { 
-    "type" : "git", 
-    "url" : "https://github.com/megastef/slack-elasticsearch-indexer.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/megastef/slack-elasticsearch-indexer.git"
   }
 }
